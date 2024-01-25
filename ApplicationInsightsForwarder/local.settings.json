@@ -3,7 +3,8 @@
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    "EHConnection": "<YourEventHubConnectionString",
-    "OTLP_ENDPOINT": "http://localhost:4318/v1/traces"
+    "EHConnection": "Endpoint=sb://d1forwarder.servicebus.windows.net/;SharedAccessKeyName=d1fwd;SharedAccessKey=33XYNfW2kU0DGCItplewSBSAU3ufLuh2Y+AEhJA+fG0=;EntityPath=d1appinsightsforwarder",
+    "OTLP_ENDPOINT": "https://sg-us-east-1-52-4-169-68-cluster-acceptancee2e.sprint.dynatracelabs.com/e/hwz97639/api/v2/otlp/v1/traces",
+    "OTLP_HEADER_AUTHORIZATION": "Api-Token dt0c01.AJKLX3B6JLVWCUXU4SRZB2XT.D5XEWC6E3LCN7EZQAS2AMHYOO53BJID7KQZJR4EUKCBF6GHHOGECZ7AU53DSL6OB"
   }
 }
